@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #96a9cc;
+  background: #eee;
 }
 .todo-app {
   display: flex;
@@ -28,6 +28,7 @@ h1 {
   font-size: 24px;
   display: flex;
   justify-content: center;
+  text-transform: uppercase;
 }
 
 .complete {
@@ -49,10 +50,11 @@ h1 {
   width: 320px;
   background: transparent;
   color: black;
+  font-size: 1rem;
 }
 
 .todo-input::placeholder {
-  color: #fff;
+  color: #333;
 }
 
 .todo-button {
